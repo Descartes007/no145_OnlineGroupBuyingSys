@@ -1,4 +1,4 @@
-<h1 align="center">{1}</h1></p>
+<h1 align="center">基于Spring Boot框架的网上团购系统系统【带论文】</h1></p>
 
 - <b>完整代码获取地址：从戎源码网 ([https://armycodes.com/](https://armycodes.com/))</b>
 - <b>技术探讨、资料分享，请加QQ群：692619798</b>
@@ -9,49 +9,73 @@
 
 ## 一、项目介绍
 
-{2}
-
-### {3}
-
-- {4}
+### 基于Spring Boot框架的网上团购系统，系统角色为后台管理员和前台用户，主要功能如下
+### 后台管理员：
+- 基本操作：登录、修改密码、获取个人信息、修改个人信息
+- 用户管理：筛选用户信息、查看用户信息详情、新增用户、修改用户信息、删除用户信息、获取用户在线状态
+- 商品类别管理：获取类别列表、查看类别详情、新增类别、修改类别、删除类别
+- 团购商品管理：筛选团购商品、获取商品列表、查看商品详情、后台新增/保存商品、前台新增（add）、更新商品、删除商品、自动排序
+- 订单管理：筛选订单、获取订单列表、查看订单详情、生成/保存订单、修改订单、删除订单、订单统计（数值/分组/时间统计）、提醒统计、订单审核/发货等操作
+- 购物车管理：获取购物车列表、添加/修改/删除购物车项、清空购物车
+- 评论/讨论管理：获取评论列表、查看评论详情、发布/回复评论、删除评论、评论审核
+- 收藏/关注管理（Storeup）：获取收藏列表、添加/取消收藏、删除收藏
+- 新闻公告管理：获取公告列表、查看公告详情、发布公告、修改公告、删除公告
+- 地址管理：获取收货地址列表、查看地址详情、新增地址、修改地址、删除地址
+### 前台用户：
+- 基本操作：注册、登录、修改密码、获取/修改个人信息
+- 商品浏览：按类别浏览商品、商品搜索、查看商品详情、商品排序与筛选
+- 购物车功能：加入购物车、修改数量、删除项、查看购物车
+- 收藏功能：收藏/取消收藏商品、查看收藏列表
+- 下单与支付：创建订单、查看订单详情、跳转支付页面、订单状态查询
+- 评论互动：对商品发表评论、查看评论
+- 地址管理：新增/修改/删除收货地址、选择默认地址
+- 内容浏览：查看新闻公告、查看站点配置相关信息
 
 ## 二、项目技术
 
-- {5}
+- 编程语言：Java（后端）、JavaScript/ES6（前端）
+- 项目架构：B/S 架构，前后端分离（前端 Vue + 后端 Spring Boot REST API）
+- 前端技术：Vue.js (Vue2)、vue-router、Axios（统一 http 实例与拦截器）、ElementUI
+- 后端技术：Spring Boot、Spring MVC、MyBatis / MyBatis-Plus、Maven 构建、RESTful 风格接口设计
 
 
 ## 三、运行环境
 
-- {6}
+- JDK版本：1.8及以上都可以
+- 操作系统：Windows7/10、MacOS
+- 开发工具：IDEA、Ecplise、MyEclipse都可以
 
 ## 四、数据库配置文件
 
-- {7}
+- npm版本：6.14.13及以上都可以
+- Redis版本：3.2.100及以上都可以
+- 文件名：application.yml
+- 编码类型：utf8
 
 ## 论文截图
 
-![](screenshot/1.jpg)
+![](screenshot/1.png)
 
-![](screenshot/2.jpg)
+![](screenshot/2.png)
 
 ## 系统截图
 
-![](screenshot/3.jpg)
+![](screenshot/3.png)
 
-![](screenshot/4.jpg)
+![](screenshot/4.png)
 
-![](screenshot/5.jpg)
+![](screenshot/5.png)
 
-![](screenshot/6.jpg)
+![](screenshot/6.png)
 
-![](screenshot/7.jpg)
+![](screenshot/7.png)
 
-![](screenshot/8.jpg)
+![](screenshot/8.png)
 
-![](screenshot/9.jpg)
+![](screenshot/9.png)
 
-![](screenshot/10.jpg)
+![](screenshot/10.png)
 
-![](screenshot/11.jpg)
+![](screenshot/11.png)
 
-![](screenshot/12.jpg)
+![](screenshot/12.png)
